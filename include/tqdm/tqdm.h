@@ -37,7 +37,7 @@ Usage:
 #include "tqdm/utils.h"
 
 #ifndef SIZE_T_MAX
-constexpr size_t SIZE_T_MAX = std::numeric_limits<size_t>::max();
+static const size_t SIZE_T_MAX = std::numeric_limits<size_t>::max();
 #endif
 
 namespace tqdm {

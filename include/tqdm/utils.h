@@ -33,18 +33,6 @@
  * _sh(const char *cmd[], ...)
  */
 
-#ifndef constexpr
-#define constexpr static const
-#endif
-
-#ifndef explicit
-#define explicit
-#endif
-
-#ifndef noexcept
-#define noexcept
-#endif
-
 namespace tqdm {
 
 template <typename _Iterator>
